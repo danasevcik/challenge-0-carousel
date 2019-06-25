@@ -6,7 +6,7 @@ function rotateImages() {
   setInterval(() => {
       image.style.backgroundImage = `url(./images/hero-image-${counter}.jpg)`
       counter ++
-      if (counter >= 3) {
+      if (counter >= 4) {
         counter = 0
       }
     }, 1000)
